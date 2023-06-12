@@ -7,11 +7,10 @@ html {
   font-family: 'Bebas Neue', cursive;
 }
 .container {
-  max-width: 500px;
   margin : 0 auto;
-  background-color: rgb(165, 165, 165);
+  /* background-color: rgb(165, 165, 165); */
   height: 100vh;
-  background-image: url("bg.jpg");
+  background-image: url("assets/img/bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -42,14 +41,21 @@ html {
   color: white;
 }
 
+.button-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .link {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
+  width: 500px;
 }
 
-.link > a {
+.link a {
   text-decoration: none;
   color: #222;
   font-size: 24px;
@@ -61,7 +67,6 @@ html {
   padding: 10px;
   text-transform: uppercase;
   font-weight: 500;
-
 }
 
 .link > a:hover {
